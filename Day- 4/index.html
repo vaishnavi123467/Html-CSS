@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width:50%;
+                margin: 20px auto;
+            }
+            th, td {
+                border: 2px solid black;
+                padding:10px;
+                text-align: center;
+            }
+            thead {
+                background-color: rgb(171, 221, 120);
+            }
+            tbody {
+                background-color: palegoldenrod;
+            }
+            tfoot {
+                background-color: burlywood;
+                font-style: italic;
+            }
+          
+        
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="3"> My Favourite Movies</td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>Title</td>
+                    <td>Year</td>
+                    <td>Genre</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Housefull </td>
+                    <td>2012</td>
+                    <td rowspan="3">Comedy</td>
+                </tr>
+                <tr>
+                    <td>Housefull 2</td>
+                    <td>2015</td>
+                   
+                </tr>
+                <tr>
+                    <td>Housefull 3</td>
+                    <td>2020</td>
+                  
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
