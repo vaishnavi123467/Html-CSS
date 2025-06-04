@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            h3 {
+                text-align: center
+            }
+
+            form {
+                width:300px;
+                margin:30px auto;
+                padding:20px;
+                background: rgb(229, 232, 234);
+              
+            }
+
+            fieldset {
+                border: 2px solid #0b07f2;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            button {
+                background-color: rgb(8, 103, 247);
+                color: white;
+                width:300px;
+                height:30px;
+                border: none;
+            }
+
+                
+        
+        </style>
+    </head>
+    <body>
+        <form>
+            <h3> Feedback Form</h3>
+            <fieldset>
+                <legend>Personal Information</legend>
+            <label for name="name">Name:</label> <br>
+            <input type="text" id="name" name="name" required> <br><br>
+            <label for email="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com" required> <br><br>
+            <label for message="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" ></textarea><br><br>
+            <label>Gender:</label><br>
+            <label><input type="radio" name="Gender" value="Male"> Male </label>
+            <label><input type="radio" name="Gender" value="Female"> Female </label>
+            <label><input type="radio" name="Gender" value="Other"> Other </label><br>
+            <br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>contact us</legend>
+                <label for="phone">Phone no:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required> <br><br>
+                <label for="Phone">Alternate Phone no:</label>
+                <input type="tel" id="alt_phone" name="alt_phone" placeholder="123-456-7890"> <br><br>
+            </fieldset><br>
+            <label><input type="checkbox" name="subscribe"> Accept terms & conditions</label><br><br>
+            <button type="submit">Submit</button>
+        </form>
