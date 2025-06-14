@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      
+
+      .navbar {
+        height: 70px;
+        border: 1px solid rgba(241, 238, 238, 0.96);
+        display: flex;
+        align-items: center;
+        background: #fffefe;
+        justify-content: space-around;
+      }
+
+      .navbar a:hover {
+        color: rgb(204, 77, 98);
+        padding: 1px;
+      }
+
+      .sup {
+        color: rgb(198, 35, 63);
+        padding-bottom: 20px;
+        font-size: small;
+      }
+
+      #studio {
+        display: flex;
+        align-items: center;
+      }
+
+      .search {
+        width: 400px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(128, 128, 128, 0.455);
+        background: #f7f3f3;
+      }
+
+      #profile {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .subheading {
+        padding-left: 10px;
+      }
+
+      .filterscnt {
+        height: 70px;
+        display: flex;
+        align-items: center;
+      }
+
+      .filters {
+        padding-left: 10px;
+        padding-right: 200px;
+      }
+
+      .filtercategory {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px;
+      }
+
+      #input {
+        height: 30px;
+      }
+
+      .sortby {
+        padding-left: 800px;
+      }
+
+      .body {
+        height: 800px;
+        width: 1510px;
+        border: 2px solid black;
+      }
+
+      .leftcnt {
+        height: 800px;
+        width: 300px;
+        border: 1px solid red;
+        line-height: 1.6;
+      }
+
+      .categories {
+        color: rgb(44, 41, 41);
+        font-size: large;
+      }
+
+      .rightcnt {
+        height: 800px;
+        width: 700px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+    <div class="navbar">
+      <img
+        src="https://ifp.world/wp-content/uploads/2021/05/Myntra-Logo.png"
+        height="70px"
+        width="110px"
+      />
+      <a>MEN</a>
+      <a>WOMEN</a>
+      <a>KIDS</a>
+      <a>HOME</a>
+      <a>BEAUTY</a>
+      <a>GENZ</a>
+      <a id="studio">STUDIO <sup class="sup">NEW</sup></a>
+      <input
+        type="text"
+        placeholder=" Search for products,brands and more"
+        class="search"
+      />
+
+      <a id="profile">profile</a>
+      <a id="profile">Wishlist</a>
+      <a id="profile">Bag</a>
+    </div>
+    <br />
+    <div class="subheading">
+      <p>Home / Clothing / <b>Mens T-Shirt</b></p>
+      <p><b>Mens T-Shirt</b> -19000 items</p>
+    </div>
+    <br />
+
+    <div class="filterscnt">
+      <div class="filters">FILTERS</div>
+      <div class="filtercategory">Bundle</div>
+      <div class="filtercategory">Country of origin</div>
+      <div class="filtercategory">Size</div>
+      <div class="sortby">
+        <input type="text" placeholder=" Sort by: recommended" id="input" />
+      </div>
+    </div>
+    <hr />
+
+    <div class="body">
+      <div class="leftcnt">
+        <div class="categories">
+          <br />
+          <b>CATEGORIES</b>
+        </div>
+        <br />
+        <label
+          ><input type="checkbox" name=" Tshirt" class="inputcheckbox" />
+          Tshirts <br />
+          <input type="checkbox" name=" Lounge Shirts" class="inputcheckbox" />
+          Lounge Tshirts <br />
+        </label>
+        <br />
+        <hr />
+        
+      
+
+      </div>
+  </body>
+</html>
