@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   
+</head>
+
+<style>
+ 
+ * {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', 'sans-serif';
+ }
+
+ .navbar{
+    height:70px;
+    width:1405px;
+    display:flex;
+    align-items: center;
+    padding:0px 64px;
+ }
+
+ .logo {
+    margin-right: 38px;
+ }
+ 
+ .search {
+    height:43px;
+    width:586px;
+    border:1px solid rgb(151, 150, 150);
+    border-radius: 3px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0px 6px;
+    margin-right: 47px;
+    
+ }
+
+ .supplierinvestor{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+ }
+
+ #supplier {
+    padding-right:16px;
+    border-right:1px solid rgb(180, 168, 168);
+    font-size: 17px;    
+    letter-spacing: 0.5px;
+ }
+
+ #investor {
+    padding-right:16px;
+    border-right:1px solid rgb(180, 168, 168);
+    font-size:17px;
+    letter-spacing: 0.5px;
+  
+
+ }
+
+ .profilecart {
+    padding:0px 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap:40px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  
+ }
+
+ .subnavbar{
+   height:55px;
+   width:1405px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin:0px 74px;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+  
+ }
+
+ .childnav {
+    height:50px;
+    width:1526px;
+    background-color: #FDEEFA;
+    padding:5px 0px;
+
+   
+ }
+
+ .whitebody {
+    height:44px;
+    width:1483px;
+    border: 1px solid rgb(207, 169, 169);
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 7px;
+   
+
+   
+ }
+ 
+
+ 
+ 
+ 
+
+</style>
+<body>
+    <div class="navbar">
+      <p class="logo"><img src="data:image/png;base64,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" height="40px" width="154px"></p>
+      <p class="search">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"></svg>
+            <input style="border:none; outline:none; width:255px;"  placeholder="Try Saree Kurti or Search by Product Code"/>
+        </p>
+        
+      <div class="supplierinvestor">
+      <p id="supplier" >Become a Supplier</p>
+      <p id="investor">Investor Relations</p>
+      </div>
+      
+      <div class="profilecart">
+      <div class="profile"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M247.85-260.62q51-36.69 108.23-58.03Q413.31-340 480-340t123.92 21.35q57.23 21.34 108.23 58.03 39.62-41 63.73-96.84Q800-413.31 800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 66.69 24.12 122.54 24.11 55.84 63.73 96.84ZM480.02-460q-50.56 0-85.29-34.71Q360-529.42 360-579.98q0-50.56 34.71-85.29Q429.42-700 479.98-700q50.56 0 85.29 34.71Q600-630.58 600-580.02q0 50.56-34.71 85.29Q530.58-460 480.02-460ZM480-120q-75.31 0-141-28.04t-114.31-76.65Q176.08-273.31 148.04-339 120-404.69 120-480t28.04-141q28.04-65.69 76.65-114.31 48.62-48.61 114.31-76.65Q404.69-840 480-840t141 28.04q65.69 28.04 114.31 76.65 48.61 48.62 76.65 114.31Q840-555.31 840-480t-28.04 141q-28.04 65.69-76.65 114.31-48.62 48.61-114.31 76.65Q555.31-120 480-120Zm0-40q55.31 0 108.85-19.35 53.53-19.34 92.53-52.96-39-31.31-90.23-49.5Q539.92-300 480-300q-59.92 0-111.54 17.81-51.61 17.81-89.84 49.88 39 33.62 92.53 52.96Q424.69-160 480-160Zm0-340q33.69 0 56.85-23.15Q560-546.31 560-580t-23.15-56.85Q513.69-660 480-660t-56.85 23.15Q400-613.69 400-580t23.15 56.85Q446.31-500 480-500Zm0-80Zm0 350Z"/></svg>
+      <p>Profile</p></div>
+      <div class="cart"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M292.31-115.38q-25.31 0-42.66-17.35-17.34-17.35-17.34-42.65 0-25.31 17.34-42.66 17.35-17.34 42.66-17.34 25.31 0 42.65 17.34 17.35 17.35 17.35 42.66 0 25.3-17.35 42.65-17.34 17.35-42.65 17.35Zm375.38 0q-25.31 0-42.65-17.35-17.35-17.35-17.35-42.65 0-25.31 17.35-42.66 17.34-17.34 42.65-17.34t42.66 17.34q17.34 17.35 17.34 42.66 0 25.3-17.34 42.65-17.35 17.35-42.66 17.35ZM235.23-740 342-515.38h265.38q6.93 0 12.31-3.47 5.39-3.46 9.23-9.61l104.62-190q4.61-8.46.77-15-3.85-6.54-13.08-6.54h-486Zm-19.54-40h520.77q26.08 0 39.23 21.27 13.16 21.27 1.39 43.81l-114.31 208.3q-8.69 14.62-22.58 22.93-13.88 8.31-30.5 8.31H324l-48.62 89.23q-6.15 9.23-.38 20 5.77 10.77 17.31 10.77h435.38v40H292.31q-35 0-52.23-29.5-17.23-29.5-.85-59.27l60.15-107.23L152.31-820H80v-40h97.69l38 80ZM342-515.38h280-280Z"/></svg>
+      <p>Cart</p></div>
+      </div>
+    </div>
+
+    <hr>
+
+<div class="subnavbar">
+   <p>Women Ethnic</p>
+   <p>Women Western</p>
+   <p>Men</p>
+   <p>Kids</p>
+   <p>Home & Kitchen</p>
+   <p>Beauty & Health</p>
+   <p>Jewellery & Accessories</p>
+   <p>Bags & Footwear</p>
+   <p>Electronics</p>
+   <p>Sports & Fitness</p>
+   <p>Car & Motorbike</p>
+   <p>Office</p>
+</div>
+
+<hr>
+
+<div class="img1">
+      <img src="https://images.meesho.com/images/marketing/1746425994914.webp" height="418px" width="1523px">
+     
+
+   <div class="leftcnt"></div>
+   <div class="rightcnt"></div>
+</div>
+
+<div class="childnav"> 
+    <div class="whitebody">
+     
+   </div>
+</div>
+
+
+
+
+
+   
+</body>
+</html>
