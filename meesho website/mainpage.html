@@ -14,6 +14,7 @@
     margin:0;
     padding:0;
     font-family: 'Roboto', 'sans-serif';
+    
  }
 
  .navbar{
@@ -22,6 +23,9 @@
     display:flex;
     align-items: center;
     padding:0px 64px;
+   
+    
+    
  }
 
  .logo {
@@ -46,6 +50,7 @@
     display: flex;
     justify-content: center;
     gap:20px;
+    color:#353543;
  }
 
  #supplier {
@@ -73,6 +78,7 @@
     gap:40px;
     font-size: 16px;
     letter-spacing: 0.5px;
+    color:#353543;
   
  }
 
@@ -85,34 +91,123 @@
    margin:0px 74px;
    font-size: 16px;
    letter-spacing: 0.5px;
+   color:#353543;
   
+ }
+
+ .img1{
+   position: relative;
+ }
+
+ .imgtext {
+   position: absolute;
+   right:40px;
  }
 
  .childnav {
     height:50px;
     width:1526px;
     background-color: #FDEEFA;
-    padding:5px 0px;
-
-   
+    padding:7px 0px;
  }
+
 
  .whitebody {
     height:44px;
-    width:1483px;
+    width:1494px;
     border: 1px solid rgb(207, 169, 169);
     background-color: rgb(255, 255, 255);
-    margin-left: 10px;
+    margin: 0px 17px;
     border-radius: 7px;
-   
-
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 0.7px;
+    font-size: 15px;
    
  }
- 
 
+ .logo1 {
+   margin-right:4px;
+ }
  
- 
- 
+ .logo2 {
+   margin-right: 4px;
+ }
+
+ .logo3 {
+   margin-right:4px;
+ }
+
+ .body1 {
+            height:280px;
+            width:1400px;
+            border:1px solid rgb(255, 255, 255);
+            margin-top:10px;
+            background-color: #ffffff;
+            margin-left: 40px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            
+         }
+    
+
+ .body1 img:hover{
+      cursor:pointer;
+      padding-bottom:5px;
+ }
+
+ .img2 {
+   height:584px;
+   width:1519px;
+   border:1px solid rgb(14, 11, 11);
+ }
+
+.originalbrands 
+{
+   height:472px;
+   width:1950px;
+   padding-left:64px;
+   padding-top: 53px;
+   font-size: 33px;
+   letter-spacing: 1.5px;
+   color:#353543;
+   
+   
+}
+
+.originalbrandsbody {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+   border-radius: 20px;
+   
+}
+
+.movingbody {
+   height:126px;
+   width:1519px;
+   border:1px solid black;
+   background-color: rgb(240, 233, 255);
+  
+
+}
+
+.movingcol {
+    height:90px;
+    width:90px;
+    border:1px solid black;
+    display: flex;
+    transform: translateX(-50%);
+    gap: 24px;
+    animation: 30s cubic-bezier(0.42, 0, 0.13, 0.3) 0s infinite normal none running scroll;
+    box-sizing: border-box;
+    
+
+}
+  
+
 
 </style>
 <body>
@@ -157,18 +252,67 @@
 
 <div class="img1">
       <img src="https://images.meesho.com/images/marketing/1746425994914.webp" height="418px" width="1523px">
+      <div class="imgtext">
+         <h4></h4>
+      </div>
+   </div>
      
 
-   <div class="leftcnt"></div>
-   <div class="rightcnt"></div>
+
 </div>
 
 <div class="childnav"> 
     <div class="whitebody">
-     
-   </div>
+      <img src="https://www.meesho.com/assets/Icons/returns.svg" height="22px" width="30px" class="logo1">7 Days Easy Return 
+      <img src="https://www.meesho.com/assets/Icons/cod.svg" height="22px" width="30px" class="logo2">  Cash on Delivery
+      <img src="https://www.meesho.com/assets/Icons/lowest-price.svg" height="22px" width="30px" class="logo3"> Lowest Prices
 </div>
 
+<div class="body1">
+        <img src="https://images.meesho.com/images/marketing/1744634654837.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634725496.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634780426.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634814643.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634835018.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634871107.webp">
+        <img src="https://images.meesho.com/images/marketing/1744634909968.webp"> 
+        <img src="https://images.meesho.com/images/marketing/1744634937295.webp">
+       
+        
+</div>
+
+<div class="img2">
+   <img src="https://images.meesho.com/images/marketing/1744698265981.webp" height=584px width="1520px">
+</div>
+
+<div class="originalbrands">
+
+   
+   <p>Original Brands
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSryEBulF_8mqiRbDkY4NGMFheyu_ATpUbTZEkadrAzIJZ1Euax" height="45px" width="45px" ></p>
+     <br>
+     <div class="originalbrandsbody">
+      <img src="https://images.meesho.com/images/marketing/1744635542873.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635521751.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635497001.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635464683.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635432891.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635402151.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635614888.webp">
+      <img src="https://images.meesho.com/images/marketing/1744635646070.webp">
+     </div>
+   </div>
+
+   <div class="movingbody">
+      <div class="movingcol">
+      <img src="https://images.meesho.com/images/marketing/1743159322237.webp">
+      <img src="https://images.meesho.com/images/marketing/1743159363205.webp">
+      <img src="https://images.meesho.com/images/marketing/1743159377598.webp">
+      <img src="https://images.meesho.com/images/marketing/1743159393231.webp">
+     
+      
+     </div>
+   </div>
 
 
 
