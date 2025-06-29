@@ -6,19 +6,27 @@
     <title>Document</title>
     <style>
 
+     .body {
+            height:650px;
+            width:450px;
+       
+            margin:auto;
+            margin-top:1px;
+          }
         .div {
-            height:700px;
-            width:700px;
+            height:610px;
+            width:420px;
             margin:auto;
             padding: 10px;
+            margin-top: 10px;
           
             
         }
         .div1 {
-            height:430px;
-            width:500px;
+            height:350px;
+            width:400px;
             border:1px solid rgb(154, 150, 150);
-            margin-bottom:30px;
+            margin-bottom:20px;
             border-radius: 10px;
             padding:10px;
         
@@ -31,27 +39,44 @@
         .div1 p {
             display:flex;
             justify-content: space-between;
+            line-height:8px ;
         }
 
         
         .div2 {
             height:200px;
-            width:500px;
+            width:400px;
             border:1px solid rgb(154, 150, 150);
             padding:10px;
             border-radius: 10px;
         }
-         
+
+        @media (min-width:320px) and (max-width:750px) {
+           .body {
+              
+                margin-top: 100px;
+             
+           }
+        }
+        
+        
+
      
     </style>
 </head>
 <body>
+    <div class="body">
     <div class="div">
-     
        
+       
+       
+      <h2>MY CART</h2> 
+      
+        
+            
     <div class="div1">
         <h3> Estimated Delivery by Tuesday</h3>
-        <hr><br>
+        <hr>
       <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/i/4/w/free-rama-saree-with-fancy-hotfix-work-durvacreation-unstitched-original-imaha7pq45ds9e7b.jpeg?q=70" height="100px" width="100px" id="img">
      
       <p>CHINON SATIN DAIMOND STONE SAREE</p> 
@@ -66,12 +91,13 @@
     <div class="div2">
         <h3><b>Delivery Address</b></h3>
         <hr>
-        <p style="font-size: 19px; line-height:28px;">Vaishnavi Gavhane <br>
-            B wing 2203 kshitij, service road, moraj, navi mumbai, Maharashtra - 400705 <br>
+        <p style="font-size: 19px; line-height:28px;">Vaishnavi Gavhane 
+            B wing 2203 kshitij, service road, moraj, navi mumbai, Maharashtra - 400705 
             
             Phone no : 9896547687</p>
     </div>
    
-</div>
+   </div>
+    </div>
 </body>
 </html>
