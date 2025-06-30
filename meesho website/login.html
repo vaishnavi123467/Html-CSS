@@ -5,50 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
         form {
-            width:260px;
+            width:240px;
+            height:400px;
             margin: auto;
             margin-top:80px;
             padding:20px;
             background-color: rgb(254, 254, 254);
             border-radius: 10px;
-            border:1px solid rgb(171, 45, 78);
+            border:1px solid rgb(189, 185, 185);
            }
        
            button {
-                background-color: rgb(182, 22, 54);
+                background-color: rgb(115, 12, 59);
                 color: white;
-                width:250px;
+                width:180px;
                 height:30px;
                 border: none;
-                border-radius: 9px;
+                border-radius: 6px;
+                margin-left: 26px;
               
             }
 
 
             #name{
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
-                width:200px;
+                width:220px;
                 
             }  
 
             #email {
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
-                width:200px;
+                width:220px;
             }
 
             #password{
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
-                width:200px;
+                width:220px;
             }
   
             p {
                 font-size: 22px;
                 
             }
+
+            @media (min-width:320px) and (max-width:750px) {
+            form {
+                width:225px;
+                margin-right:170px;
+                margin-top:90px;
+            }
+
+            button{
+                margin-left:25px;
+            }
+        }
+
+            
+        
     </style>
 </head>
 <body>
