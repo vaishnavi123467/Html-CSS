@@ -8,52 +8,66 @@
        
        
        form {
-            width:260px;
+            width:250px;
             margin: auto;
-            margin-top:40px;
+            margin-top:70px;
             padding:20px;
             background-color: rgb(254, 254, 254);
             border-radius: 10px;
-            border:1px solid rgb(171, 45, 78);
+            border:1px solid rgb(174, 170, 171);
+          
            }
        
            button {
-                background-color: rgb(182, 22, 54);
+                background-color: rgb(115, 12, 59);
                 color: white;
-                width:250px;
+                width:220px;
                 height:30px;
                 border: none;
                 border-radius: 9px;
+                margin-left: 10px;
               
             }
 
 
             #name{
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
                 width:200px;
+                
                 
             }  
 
             #email {
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
                 width:200px;
             }
 
             #password{
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
                 width:200px;
             }
 
             #phone{
-                border-radius: 9px;
+                border-radius: 6px;
                 height:25px;
                 width:200px;
             }
 
             
+            @media (min-width:320px) and (max-width:750px) {
+            form {
+                width:215px;
+                margin-right: 170px;
+                margin-top: 40px;
+            }
+
+            button{
+                width:190px;
+            }
+            }
           
 
     </style>
@@ -79,6 +93,7 @@
         <label><input type="radio" name="gender" value="female">Female </label> <br><br>
         <label><input type="checkbox" name="Subscribe">Accept terms and conditions</label><br><br><br>
         <button type="submit">Register</button>
+        <br>
         <br>
         
     </form>
